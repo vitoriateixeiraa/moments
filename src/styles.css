@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: .4s;
+}
+
+a:hover {
+    color: #dec129;
+}
+
+body::-webkit-scrollbar {
+    width: 6px; 
+    padding: 3px;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(157, 157, 160);        
+}
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #6d6d6d;    
+    border-radius: 20px;      
+} 

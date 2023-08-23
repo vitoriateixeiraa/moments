@@ -5,7 +5,19 @@ import { Injectable } from '@angular/core';
 })
 export class MassagesService {
 
-  message: string = '';
+  massage: string = '';
   
   constructor() { }
+
+  add(massage: string) {
+    this.massage = massage
+
+    setTimeout(() =>{
+      this.clear()
+    }, 4000)
+  }
+
+  clear() {
+    this.massage = '';
+  }
 }

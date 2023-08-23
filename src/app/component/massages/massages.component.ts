@@ -12,5 +12,7 @@ import { MassagesService } from 'src/app/services/massages.service';
 export class MassagesComponent {
   faTimes = faTimes
 
-  constructor(public MassagesService: MassagesService) {}
+  constructor(public massagesService: MassagesService) {}
+
+  ngOnInit(): void {}
 }

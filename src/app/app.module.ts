@@ -17,6 +17,7 @@ import { NewMomentComponent } from './components/pages/new-moment/new-moment.com
 import { MomentFormComponent } from './components/moment-form/moment-form.component';
 import { MassagesComponent } from './component/massages/massages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MoementComponent } from './components/pages/moment/moment.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     PagesComponent,
     NewMomentComponent,
     MomentFormComponent,
-    MassagesComponent
+    MassagesComponent,
+    MoementComponent
   ],
   imports: [
     BrowserModule,
